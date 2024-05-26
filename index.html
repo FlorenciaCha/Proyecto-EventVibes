@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style/navbarResponsive.css">
+    <link rel="stylesheet" href="./style/inicio.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>EventVibes</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#" class= "logo-img">
+                <img src="./img/logo-nombre.png" alt="">
+             </a>
+         </div>
+        
+         <input type="checkbox" id="check"> 
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="./index.html">Inicio</a>
+            <a href="./nosotros.html">Sobre Nosotros</a>
+            <a href="./gastronomia.html">Gastronomía</a>
+            <a href="./eventos.html">Eventos</a>
+            <a href="./galeria.html">Galería</a>
+            <button class="btn-contacto" id="contacto-btn">Contacto</button>
+            <label for="check" class="esconder-menu">&#215</label>
+        </nav>
+    </header>
+
+
+    <section class="banner">
+        <div class="capa">
+            <div class="titulo">
+                <h1>Captura la escencia de la celebración <br>con EventVibes</h1>
+                <a href="#nosotros">Conocenos</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="subtitulo">Descubrí Nuestros Eventos</h1>
+   
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./img/card1.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Aniversarios</h2>
+                            <p class="description">Celebra tus años juntos con una cena romántica o una fiesta elegante, donde cada bocado cuente una historia de amor.</p>
+                            <a href="./eventos.html" class="btn">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./img/card2.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Cumpleaños</h2>
+                            <p class="description">Sorprende a tus invitados con una deliciosa variedad de platillos y postres que harán que tu fiesta sea inolvidable.</p>
+                            <a href="./eventos.html" class="btn">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./img/card3.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Fiestas de Fin de Año</h2>
+                            <p class="description">Despide el año con estilo con una fiesta llena de sabores festivos y bebidas burbujeantes que hagan que todos brinden por un nuevo comienzo.</p>
+                            <a href="./eventos.html" class="btn">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./img/card4.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Bodas</h2>
+                            <p class="description" id="btn-ver-eventos">Celebra el día más especial de tu vida con exquista comida y servicio excepcional que refleje tu amor y personalidad</p>
+                            <a href="./eventos.html" class="btn">Ver más</a>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./img/imagen15.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Eventos coorporativos</h2>
+                            <p class="description">Impresiona a tus socios y empleados con un servicio de catering profesional que eleve la imagen de tu empresa y haga que tus eventos sean memorables</p>
+                            <a href="./eventos.html" class="btn">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+        
+    
+
+    <h1 class="subtitulo">Nuestra Gastronomía</h1>
+  
+    <section class="container gastronomia">
+        <div class="container-menus">
+            <div class="card-menu menu-boda">
+                <p>Bodas</p>
+                <a href="./gastronomia.html">Ver mas</a>
+                
+            </div>
+            <div class="card-menu menu-internacional">
+                <p>Internacional</p>
+                <a href="./gastronomia.html">Ver mas</a>
+             
+            </div>
+            <div class="card-menu menu-eventos">
+                <p>Eventos sociales</p>
+                <a href="./gastronomia.html">Ver mas</a>
+            </div>
+        </div>
+    </section>
+   
+
+    <h1 class="subtitulo">Sobre nosotros</h1>
+   <section class="nosotros" id="nosotros">
+        <div class="image">
+            <img src="./img/sobrenosotros.jpeg" alt="">
+        </div>
+
+        <div class="content-nosotros">
+            <h3>¿Quiénes somos?</h3>
+            <p>
+                Bienvenidos a EventVibes, donde convertimos tus eventos en experiencias
+                culinarias memorables. Nos enorgullece ofrecer un servicio de catering excepcional que
+                combina creatividad culinaria, atención al detalle y un compromiso inquebrantable con la
+                calidad. <br><br>
+
+                En EventVibes, entendemos que cada evento es único y especial. Ya sea una boda
+                elegante, una conferencia corporativa, una fiesta privada o cualquier otra ocasión, nuestro
+                equipo dedicado trabaja estrechamente contigo para crear un menú personalizado que satisfaga
+                tus gustos, requisitos y presupuesto.
+            </p>
+            <a href="./nosotros.html" class="btn-mas">Más</a>
+        </div>
+      
+   </section>
+    
+
+    
+
+    <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>Preguntas frecuentes</h3>
+            <a href="#"> <i class="fa-solid fa-angle-right" style="color: #eee5d6;"></i>Horarios</a>
+            <a href="#"> <i class="fa-solid fa-angle-right" style="color: #eee5d6;"></i>Reservas</a>
+            <a href="#"> <i class="fa-solid fa-angle-right" style="color: #eee5d6;"></i>Política de privacidad</a>
+           
+          </div>
+    
+    
+          <div class="box">
+            <h3>Información de contacto</h3>
+            <a href="#"><i class="fa-solid fa-phone" style="color: #eee5d6;"></i>+54 11 1234-5678</a>
+            <a href="#"><i class="fas fa-envelope" style="color: #eee5d6;"></i>eventvibes@gmail.com</a>
+            <a href="#"><i class="fas fa-map"  style="color: #eee5d6;"></i>San Petersburgo, Florida 33713, Estados Unidos</a>
+          </div>
+    
+          <div class="box">
+            <h3>Síganos en nuestras redes</h3>
+            <a href="#"><i class="fa-brands fa-instagram" style="color: #eee5d6;"></i>Instagram</a>
+            <a href="#"><i class="fa-brands fa-facebook" style="color: #eee5d6;"></i>Facebook</a>
+            <a href="#"><i class="fa-brands fa-x-twitter"style="color: #eee5d6;"></i>X-Twitter</a>
+          </div>
+    
+        </div>
+      </section>
+
+
+    
+    <script src="./script.js"></script>
+         <!-- Swiper JS -->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

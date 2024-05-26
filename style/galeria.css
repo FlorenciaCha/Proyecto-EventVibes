@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+     /* Estilos adicionales para la galería */
+     .imagen {
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+        border-radius: 10px; /* Agregamos un border radius a las imágenes */
+    }
+
+    h1 {
+        color: #0B2E2E;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+        font-weight: bold;
+        font-family: 'Jaldi', sans-serif; 
+
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000; /* Asegura que la navbar esté por encima de las imágenes */
+        background-color: #174F50;
+    }
